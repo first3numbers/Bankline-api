@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 public class Movimentacao {
 	private Integer id;
-	private LocalDateTime data;
+	private LocalDateTime dataHora;
 	private String descricao;
 	private Double valor;
 	private MovimentacaoTipo tipo;
@@ -17,12 +17,12 @@ public class Movimentacao {
 		this.id = id;
 	}
 
-	public LocalDateTime getData() {
-		return data;
+	public LocalDateTime getDataHora() {
+		return dataHora;
 	}
 
-	public void setData(LocalDateTime data) {
-		this.data = data;
+	public void setDataHora(LocalDateTime dataHora) {
+		this.dataHora = dataHora;
 	}
 
 	public String getDescricao() {
